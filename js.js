@@ -10,9 +10,11 @@ cd=b.toString()
 ef=c.toString()
 let changer1 =(ab+" "+cd+" "+ef)
 let  changer2=(cd+" "+ef+" "+ab)
+let  changer3=(ef+" "+ab+" "+cd)
     body.style.backgroundColor = `rgb(${changer1})`
     console.log(`rgb(${changer1})`);
     rendom.style.backgroundColor = `rgb(${changer2})`
+    input.style.backgroundColor = `rgb(${changer3})`
     rendom.style.border = `none`
     console.log(`rgb(${changer2})`);
     input.style.visibility = "visible"
